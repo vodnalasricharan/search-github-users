@@ -26,7 +26,7 @@ ReactFC.fcRoot(FusionCharts, Column2D, FusionTheme);
 
 const Column3Dgraph = ({data}) => {
   const chartConfigs = {
-    type: "column3d", // The chart type
+    type: "column2d", // The chart type
     width: "100%", // Width of the chart
     height: "400", // Height of the chart
     dataFormat: "json", // Data type
@@ -42,6 +42,7 @@ const Column3Dgraph = ({data}) => {
         //Set the chart subcaption
         //Set the x-axis name
         //Set the theme for your chart
+        theme: 'fusion',
 
       },
       // Chart Data

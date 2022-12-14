@@ -41,7 +41,7 @@ const Doughnut2dgraph = ({data}) => {
         decimals: 0,
         doughnutRadius: '45%',
         showPercentValues:0,
-        theme: "candy"
+        theme: "fusion"
       },
       // Chart Data
       data,
