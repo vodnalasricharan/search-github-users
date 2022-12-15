@@ -10,8 +10,8 @@ const Login = () => {
   }
   return <Wrapper className='container'>
     <div className="container">
+      <h1>search GitHub user</h1>
       <img src={loginImg} alt="github user"></img>
-      <h1>github user</h1>
       <button className='btn' onClick={loginWithRedirect}>login/signup</button>
     </div>
   </Wrapper>;
